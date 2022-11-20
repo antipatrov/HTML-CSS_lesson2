@@ -1,0 +1,95 @@
+ * {
+     margin: 0 auto;
+     padding: 0;
+ }
+ 
+ html,
+ body {
+     height: 100%;
+ }
+ 
+ header,
+ footer {
+     display: block;
+ }
+ 
+ a {
+     text-decoration: none
+ }
+ 
+ .url_menu {
+     text-decoration: none;
+     font-size: 16px;
+     line-height: 20px;
+     color: cornflowerblue;
+     width: 150px;
+     height: 40px;
+     text-align: center;
+     background-color: rgb(12, 120, 46);
+ }
+ 
+ .heading {
+     color: #222222;
+     font-size: 28px;
+     line-height: 36px;
+     font-weight: bold;
+ }
+ 
+ .heading_two {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 80px;
+ }
+ 
+ .paragraf {
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 30px;
+     color: #7D7987
+ }
+ 
+ .header {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: aqua;
+     width: 100;
+     height: 100px;
+     align-items: center;
+ }
+ 
+ .container {
+     margin: 0 auto;
+     align-content: center;
+     flex-wrap: wrap;
+ }
+ 
+ .url_head:hover {
+     background-color: rgb(29, 138, 62);
+ }
+ 
+ .pictures {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .logo {
+     font-size: 50px;
+ }
+ 
+ .footer {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin: 100px auto 0;
+     height: 100px;
+     position: relative;
+     background-color: rgb(51, 51, 204);
+ }
+ 
+ .imaging {
+     background-color: cyan;
+ }
